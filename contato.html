@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Matheus Felix Designer</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="responsividade.css">
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script> 
+		<script type="text/javascript" src="jquery.js"></script>
+	</head>
+	<body class="news">
+		<div class="wrap" >
+			<header>
+				<nav>
+					<ul class="barrasup" >
+						<li class="hvr-underline-from-center"><a href="index.html">INÍCIO</a></li>
+						<li class="hvr-underline-from-center"><a href="trabalhos.html">TRABALHOS</a></li>
+						<li class="hvr-underline-from-center"><a href="perfil.html">PERFIL</a></li>
+						<li class="hvr-underline-from-center"><a href="contato.html">CONTATO</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="content">
+				<div class="contenttitle">
+					<h1 class="h1">C O N T A T O</h1>
+				</div>
+				<div id="socialmedia">
+					<ul>
+						<li><a href="https://facebook.com/thematheusfelix" target="_blank" > <img src="botao1.png" alt="Facebook"></a></li>
+						<li><a href="https://instagram.com/thematheusfelix" target="_blank"> <img src="botao2.png" alt="Instagram"></a></li>
+						<li><a href="https://behance.net/matheusfelix" target="_blank" > <img src="botao3.png" alt="Behance"></a></li>
+					</ul>
+				</div>
+				<div id="form">
+					<form name="formulario" action="" method="post">
+						<input type=hidden name="destino" value="matheusfelix@alu.ufc.br">
+						<input type=hidden name="enviado" value="http://www.seudominio.xxx.yy/enviado.htm">
+						<input class="caixa_texto tamanho-caixa" type=text name="nome"  id="input1" placeholder=" Nome" >
+						<input class="caixa_texto tamanho-caixa" type=text name="email" id="input2"size="45" placeholder=" Email">
+						<input class="caixa_texto tamanho-caixa" type=text name="assunto"  id="input3" placeholder=" Assunto">
+						<textarea class="caixa_texto" name="Mensagem" id="input4" rows="6" cols="60" wrap="virtual" placeholder=" Mensagem"></textarea>
+						<div id="formbuttons">
+							<input type="button" class="botao" id="enviar_email" value="Enviar Email">
+							<input type="reset" class="botao" value="Limpar">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

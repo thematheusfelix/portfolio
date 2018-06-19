@@ -1,0 +1,136 @@
+@media screen and (max-width: 750px) {
+	nav .barrainicio {
+		width: 100%;
+	}
+	nav li {
+		width: 25%;
+	}
+
+	.content h1 {
+		font-size: 40px;
+	}
+	
+	.grid-perfil {
+		grid-template-columns: 100%;
+	}
+	
+	.grid-perfil img {
+		margin: 0px;
+	}	
+
+	#socialmedia ul{
+		text-align: center;
+		width: 100%;
+		padding: 0px;
+	}
+
+	#socialmedia ul li{
+		width: 20%;		
+	}
+
+	#socialmedia ul li img{
+		width: auto;
+	}
+
+	.caixa_texto {
+		width: 90%;
+	}
+
+	#formbuttons{
+		text-align: center;
+		padding-right: 0%;
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.grid-perfil {
+		grid-template-columns: 50% auto;
+	}
+	
+	.grid-perfil img {
+		width: 80%;
+		height: auto;
+	}	
+}
+
+@media screen and (max-width: 400px) and (min-width: 280px)  {
+	nav .barrainicio li{
+		margin: 0px;
+		width: 100%;
+		background-color: black;
+	}
+	#tituloinicio{
+		font-size: 50px;	
+	}
+	nav li {
+		margin: 0px;
+		width: 100%;
+		background-color: black;
+	}
+	.content {
+		position: relative;
+		top: 100px;
+		margin-top: 50px;
+		margin-bottom: 70px; 
+	}
+
+	.content h1 {
+		font-size: 25px;
+	}
+
+	.galeria_trabalhos{
+		position: relative;
+		top: 50px;
+	}
+
+	.direita{
+		grid-template-columns: 90%;
+	}
+	
+	.esquerda{
+		grid-template-columns: 90%;
+	}
+
+	.card-imagem .descricao{
+		width: 100%;
+	}
+
+	.card-imagem img{
+		width: 100%;
+		margin: 5%;
+	}
+
+	.grid-perfil {
+		grid-template-columns: 100%;
+	}
+	
+	.grid-perfil img {
+		margin: 0px;
+		width: 100%;
+	}	
+
+	#socialmedia ul{
+		text-align: center;
+		width: 100%;
+		padding: 0px;
+	}
+
+	#socialmedia ul li{
+		width: 20%;
+		padding:0px;
+		
+	}
+
+	#socialmedia ul li img{
+		width: auto;
+	}
+
+	.caixa_texto {
+		width: 90%;
+	}
+
+	#formbuttons{
+		text-align: center;
+		padding-right: 0%;
+	}
+}
